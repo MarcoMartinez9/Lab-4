@@ -1,4 +1,3 @@
-import org.junit.Test;
 
 /**
  * Testing class for Product object
@@ -25,7 +24,7 @@ public class AnimalTest
     }
 
     // TODO: test full constructor, getters, and toString
-    @Test
+    
     public void fullConstructorTest() throws AssertException
     {
     	Animal ani1 = new Animal("Orange", "Tony", 200.1, 20);
@@ -35,8 +34,13 @@ public class AnimalTest
     	Assert.assertEquals(200.1, ani1.getWeight(), 0.01);
     	Assert.assertEquals(20, ani1.getHeight(), 0.01);
     	
-    	
     }
+    
+    public void testToString() throws AssertException
+	{
+    	Animal ani = new Animal("Orange", "Tony", 200.1, 20);
+    	Assert.assertEquals("Tony, a Orange-colored animal. 200.1 pounds, 20.0 inches\n",ani.toString());
+	}
     
 }
 

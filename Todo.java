@@ -1,18 +1,18 @@
 public class Todo {/*
-Lab Section_________: XX
-Last Modified_______: 20XX-XX-XX
-OU ID_______________: XXXXXXXXX
-OU EMAIL____________: XXX@ou.edu
+Lab Section_________: 11
+Last Modified_______: 2019-12-02
+OU ID_______________: 113424558
+OU EMAIL____________: marco.e.martinez-1@ou.edu
 
 Tasks:
-1. XXX
-2. XXX
+1. Tested constructors and getters for each program
+2. Add and test toStrings
 
 Estimated Time (minutes):
-1. XXX
-2. XXx
+1. 60
+2. 30
 
 Actual Time (minutes):
-1. XXX
-2. XXX
+1. 50
+2. 10
 */}

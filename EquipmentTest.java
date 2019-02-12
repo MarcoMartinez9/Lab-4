@@ -12,4 +12,10 @@ public class EquipmentTest {
         Assert.assertEquals("Something you sometimes just can't get rid of", bomb.getDescription());
     
     }
+	
+	public void testToString() throws AssertException
+	{
+		Equipment bomb = new Equipment("Bomb/1,50.6,70.60,Something you sometimes just can't get rid of");
+		Assert.assertEquals("Name: Bomb, Number: 1, Weight: 50.60 lbs, Price: $70.60 - Something you sometimes just can't get rid of",bomb.toString());
+	}
 }
